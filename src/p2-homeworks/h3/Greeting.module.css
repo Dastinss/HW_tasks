@@ -1,0 +1,59 @@
+.greetings {
+    display: flex;
+    align-items: flex-start;
+}
+
+.error {
+    color: red;
+    height: 21px;
+    margin-left: 10px;
+}
+
+.input {
+    margin: 10px;
+    background: #0113;
+    color: sienna;
+}
+
+.input:focus {
+    outline: greenyellow;
+    border: blue solid 2px;
+}
+
+.errorInput {
+    margin: 10px;
+    background: #0113;
+    color: red;
+    border: 2px solid red;
+    outline: salmon;
+}
+
+.button {
+margin: 10px;
+    width: 40px;
+    background: greenyellow;
+    color: aquamarine;
+    outline: none;
+}
+
+.button.focus {
+    outline: green solid 2px;
+}
+
+.button.active {
+    background: sienna;
+}
+
+.button.disabled {
+    color: greenyellow;
+}
+
+.count {
+    margin: 10px;
+}
+
+.errorMessage {
+    color: red;
+}
+
+
