@@ -1,5 +1,26 @@
+@keyframes blink {
+    0%{
+        left: -130%;
+    }
+    100%{
+        left: 130%;
+    }
+}
+
 .default {
 
+}
+
+.default:disabled {
+    background: gray;
+}
+
+.default:focus {
+    background: pink;
+}
+
+.default:hover {
+    background: orange;
 }
 
 .red {
