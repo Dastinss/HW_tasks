@@ -1,0 +1,36 @@
+
+.nav {
+    grid-area: n;
+    background-color: chocolate;
+    /*padding: 20px;*/
+    display: flex;
+    padding: 0 30px;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 300px;
+
+}
+
+.unShow {
+    display: none;
+}
+
+.item {
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    color: gold;
+}
+
+.burgerBtn {
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+    position: absolute;
+    top: 20px;
+}
