@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HW_It_incub/static/css/main.fc2de672.css",
+    "main.js": "/HW_It_incub/static/js/main.ad8d1309.js",
+    "index.html": "/HW_It_incub/index.html",
+    "main.fc2de672.css.map": "/HW_It_incub/static/css/main.fc2de672.css.map",
+    "main.ad8d1309.js.map": "/HW_It_incub/static/js/main.ad8d1309.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc2de672.css",
+    "static/js/main.ad8d1309.js"
+  ]
+}
