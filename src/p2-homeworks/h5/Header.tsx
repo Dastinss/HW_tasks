@@ -15,7 +15,7 @@ function Header() {
                 <nav className={menuIsOpen ? `${s.nav} ${s.unShow}` : s.nav}>
                     <div className={s.item}>
                         <NavLink to="/pre-junior"
-                                 className={navData => navData.isActive ? s.active : s.item}>Pre-Junior</NavLink>
+                                 className={navData => navData.isActive ? s.active : s.item}>Pre-Junior!!</NavLink>
                     </div>
                     <div className={s.item}>
                         <NavLink to="/junior"

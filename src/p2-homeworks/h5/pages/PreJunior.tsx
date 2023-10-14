@@ -9,8 +9,8 @@ function PreJunior() {
         <div>
             <HW1/>
             <HW2/>
-            <HW3/>
-            <HW4/>
+            {/*<HW3/>*/}
+            {/*<HW4/>*/}
             {/*<HW6/>*/}
 
         </div>
