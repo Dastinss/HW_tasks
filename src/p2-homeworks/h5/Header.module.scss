@@ -1,7 +1,8 @@
+@import "./../h5/pages/Error404.module";
 
 .nav {
     grid-area: n;
-    background-color: chocolate;
+    background-color: #5297e5;
     /*padding: 20px;*/
     display: flex;
     padding: 0 30px;
@@ -30,7 +31,7 @@
 .burgerBtn {
     width: 25px;
     height: 25px;
-    background-color: blue;
+    background-color: #4d4de5;
     position: absolute;
     top: 20px;
 }

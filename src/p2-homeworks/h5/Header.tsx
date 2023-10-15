@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import s from './Header.module.css'
+import s from './Header.module.scss'
 import {NavLink} from "react-router-dom";
 
 function Header() {
@@ -10,25 +10,25 @@ function Header() {
     }
 
     return (
-            <div>
-                {/*// add NavLinks*/}
-                <nav className={menuIsOpen ? `${s.nav} ${s.unShow}` : s.nav}>
-                    <div className={s.item}>
-                        <NavLink to="/pre-junior"
-                                 className={navData => navData.isActive ? s.active : s.item}>Pre-Junior!!</NavLink>
-                    </div>
-                    <div className={s.item}>
-                        <NavLink to="/junior"
-                                 className={navData => navData.isActive ? s.active : s.item}>Junior</NavLink>
-                    </div>
-                    <div className={s.item}>
-                        <NavLink to="/junior+"
-                                 className={navData => navData.isActive ? s.active : s.item}>Junior+</NavLink>
-                    </div>
-                </nav>
-                <div onClick={onBurgerClick} className={s.burgerBtn}>
+        <div>
+            {/*// add NavLinks*/}
+            <nav className={menuIsOpen ? `${s.nav} ${s.unShow}` : s.nav}>
+                <div className={s.item}>
+                    <NavLink to="/pre-junior"
+                             className={navData => navData.isActive ? s.active : s.item}>Pre-Junior</NavLink>
                 </div>
+                <div className={s.item}>
+                    <NavLink to="/junior"
+                             className={navData => navData.isActive ? s.active : s.item}>Junior</NavLink>
+                </div>
+                <div className={s.item}>
+                    <NavLink to="/junior+"
+                             className={navData => navData.isActive ? s.active : s.item}>Junior+</NavLink>
+                </div>
+            </nav>
+            <div onClick={onBurgerClick} className={s.burgerBtn}>
             </div>
+        </div>
     )
 }
 
