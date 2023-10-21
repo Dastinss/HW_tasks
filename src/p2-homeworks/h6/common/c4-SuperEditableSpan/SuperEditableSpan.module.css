@@ -1,0 +1,13 @@
+.span {
+    display: inline-block;
+
+    height: 31px;
+    padding-top: 10px;
+
+    cursor: pointer;
+    color: #061a3d;
+}
+
+/*.spanClassName{*/
+/*    border-block: black;*/
+/*}*/
